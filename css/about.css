@@ -45,7 +45,7 @@ body{
     .degradado{
          
       background: linear-gradient(233deg, #f94f52, #b2e29a, #5d55a1);
-          background-size: 900% 900%;
+          background-size: 1000% 1000%;
           
           -webkit-animation: gradientanimation 15s ease infinite;
           -moz-animation: gradientanimation 15s ease infinite;
@@ -204,6 +204,14 @@ body{
   font-size: 32px;
   color: white;
   margin-left: 500px;
+  padding-top: 50px;
+  width: 45%;
+}
+.intro5 {
+  font-family: "basis-grotesque-regular";
+  font-size: 32px;
+  color: white;
+  margin-left: 375px;
   padding-top: 50px;
   width: 45%;
   padding-bottom: 150px;
