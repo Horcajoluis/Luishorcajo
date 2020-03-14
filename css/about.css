@@ -1,0 +1,245 @@
+body{
+    margin: 0px;  
+      height: 100vh;
+      width: 100%;
+      
+}
+  
+
+
+  
+      @font-face {
+        font-family: "basis-grotesque-regular";
+        src: url("../fonts/basis-grotesque-regular.ttf")
+    }
+  
+    
+    @font-face{
+        font-family: "basis-grotesque-bold";
+      src:  url("../fonts/basis-grotesque-bold.ttf")
+    }
+    
+    @font-face{
+        font-family: "GT-Super-Display-Light-Italic";
+      src:  url("../fonts/GT-Super-Display-Light-Italic.ttf")
+    }
+    * {
+      box-sizing: border-box;
+    }
+    @-webkit-keyframes gradientanimation {
+      0%{background-position:0% 91%}
+      50%{background-position:100% 10%}
+      100%{background-position:0% 91%}
+    }
+    @-moz-keyframes gradientanimation {
+      0%{background-position:0% 91%}
+      50%{background-position:100% 10%}
+      100%{background-position:0% 91%}
+    }
+    @keyframes gradientanimation {
+      0%{background-position:0% 91%}
+      50%{background-position:100% 10%}
+      100%{background-position:0% 91%}
+    }
+    
+    .degradado{
+         
+      background: linear-gradient(233deg, #f94f52, #b2e29a, #5d55a1);
+          background-size: 800% 800%;
+          
+          -webkit-animation: gradientanimation 10s ease infinite;
+          -moz-animation: gradientanimation 10s ease infinite;
+          animation: gradientanimation 10s ease infinite;
+          animation-direction: alternate;
+    }
+
+    .luis {
+    font-family: "basis-grotesque-regular";
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+    margin-left: 40px;
+    padding-top: 20px;
+    }
+    .horcajo {
+      font-family: "GT-Super-Display-Light-Italic";
+      font-size: 40px;
+      color: white;
+      margin-top: -8px;
+      margin-left: 40px;
+    }
+      @keyframes fade-in{
+        0%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 1;
+        }
+      }
+      
+      .fade-in{
+        -webkit-transition: fade-in 1s;
+        -moz-transition: fade-in 1s;
+        -ms-transition: fade-in 1s;
+        -o-transition: fade-in 1s;
+        transition: fade-in 1s; 
+        animation: fade-in 1s;
+    
+      }
+      .logo{
+          text-decoration: none;
+      }
+      nav{
+        display: flex;
+        justify-content: space-between;
+      }
+      ul li {
+        font-family: "basis-grotesque-regular";
+        font-size: 24px;
+        color: white;
+        margin-right: 40px;
+        
+        
+        }
+        ul{
+          display: flex;
+          justify-content: flex-end;
+        list-style: none;
+        color: white;
+        text-decoration: none;
+        padding-top: 8px;
+        }
+        ul li a{
+          color: white;
+        text-decoration: none;
+        cursor: pointer;
+        padding-bottom: 4px;
+       
+      }
+      ul li a:hover{
+        -webkit-transition: all 0s;
+        -moz-transition: all 0s;
+        -ms-transition: all 0s;
+        -o-transition: all 0s;
+        transition: all 0s; 
+        transition: 0s;
+        border-bottom: 2px solid white;
+      }
+      .selected{
+        border-bottom: 2px solid white;
+      }
+      footer{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        bottom: 32px;
+        mix-blend-mode: lighten;
+        
+      }
+      footer a{
+        color: white;
+        text-decoration: none;
+        font-family: "basis-grotesque-bold";
+        font-size: 18px;
+        align-content: flex-end;
+        
+      }
+      .footerizquierda{
+        float: left;
+  text-align: left;
+  width: 40%;
+  align-content: space-around;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: -100px;
+        
+      }
+      .footerderecha{
+        float: right;
+        text-align: right;
+        margin-right: 40px;
+        width: 40%;
+        align-content: space-around;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .margin-right{
+        margin-right: 16px;
+      }
+      .line{
+        width: 20px;
+        height: 3px;
+        background-color: white;
+    }
+    .intro {
+    font-family: "basis-grotesque-regular";
+    font-size: 32px;
+    color: white;
+    margin-top: -200px;
+    width: 50%;
+}
+
+.intro2 {
+  font-family: "basis-grotesque-regular";
+  font-size: 32px;
+  color: white;
+  margin-left: 650px;
+  padding-top: 50px;
+  width: 50%;
+
+}
+.intro3 {
+  font-family: "basis-grotesque-regular";
+  font-size: 32px;
+  color: white;
+  margin-left: 350px;
+  padding-top: 50px;
+  width: 70%;
+}
+.intro4 {
+  font-family: "basis-grotesque-regular";
+  font-size: 32px;
+  color: white;
+  margin-left: 500px;
+  padding-top: 50px;
+  width: 40%;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+}
+section div p{
+  
+    margin-left: 556px;
+    text-align: left;
+    
+
+}
+.imagenluis{
+    background-image:url("../images/imagenluisbn.jpg");
+    height: 300px;
+    width: 400px;
+background-size: cover;
+margin-left: 100px;
+margin-top: 56px;
+}
+
+span{
+  font-family: "GT-Super-Display-Light-Italic";
+}
+
+.botoncv{
+  font-family: "basis-grotesque-regular";
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.boton{
+  margin-left: -400px;
+margin-top: 375px;
+
+}

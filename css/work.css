@@ -1,0 +1,280 @@
+body{
+    margin: 0px;  
+    background-color: #F94F52;
+      height: 100vh;
+      width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+      @font-face {
+        font-family: "basis-grotesque-regular";
+        src: url("../fonts/basis-grotesque-regular.ttf")
+    }
+  
+    
+    @font-face{
+        font-family: "basis-grotesque-bold";
+      src:  url("../fonts/basis-grotesque-bold.ttf")
+    }
+    
+    @font-face{
+        font-family: "GT-Super-Display-Light-Italic";
+      src:  url("../fonts/GT-Super-Display-Light-Italic.ttf")
+    }
+    * {
+      box-sizing: border-box;
+    }
+    
+    .luis {
+    font-family: "basis-grotesque-regular";
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+    margin-left: 36px;
+    padding-top: 20px;
+    }
+    .horcajo {
+      font-family: "GT-Super-Display-Light-Italic";
+      font-size: 40px;
+      color: white;
+      margin-top: -8px;
+      margin-left: 36px;
+    
+      
+    
+      }
+      .logo{
+          text-decoration: none;
+      }
+      nav{
+        display: flex;
+        justify-content: space-between;
+      }
+      ul li {
+        font-family: "basis-grotesque-regular";
+        font-size: 24px;
+        color: white;
+        margin-right: 40px;
+        
+        
+        }
+        ul{
+          display: flex;
+          justify-content: flex-end;
+        list-style: none;
+        color: white;
+        text-decoration: none;
+        }
+        ul li a{
+          color: white;
+        text-decoration: none;
+        cursor: pointer;
+        padding-bottom: 4px;
+       
+      }
+      ul li a:hover{
+        -webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease; 
+        transition: 0.2s;
+        border-bottom: 2px solid white;
+      }
+      .selected{
+        border-bottom: 2px solid white;
+      }
+      footer{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        bottom: 32px;
+        
+      }
+      footer a{
+        color: white;
+        text-decoration: none;
+        font-family: "basis-grotesque-bold";
+        font-size: 18px;
+        align-content: flex-end;
+
+        
+      }
+      .footerizquierda{
+        float: left;
+  text-align: left;
+  width: 40%;
+  align-content: space-around;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: -100px;
+        
+      }
+      .footerderecha{
+        float: right;
+        text-align: right;
+        margin-right: 40px;
+        width: 40%;
+        align-content: space-around;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .margin-right{
+        margin-right: 16px;
+      }
+      @keyframes fade-in{
+        0%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 1;
+        }
+      }
+      
+      .fade-in{
+        animation: fade-in 1s;
+        -webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease; 
+      
+      }
+      .projects-container{
+          width: 100;
+          display: flex;
+          flex-direction: column;
+          
+      }
+      .project1{
+          justify-content: flex-start;
+          height: 396px;
+          width: 310px;
+          background-color: violet;
+          margin-top: 150px;
+          margin-left: 300px;
+          margin-bottom: 100px;
+          position: relative;
+      }
+      .project2{
+        justify-content: flex-end;
+        height: 396px;
+          width: 310px;
+          background-color:wheat;
+          margin-left: 500px;
+          margin-bottom: 100px;
+          position: relative;
+    }
+    .project3{
+        justify-content: flex-start;
+        height: 396px;
+          width: 450px;
+          background-color: burlywood;
+          margin-left: 650px;
+          margin-bottom: 100px;
+          position: relative;
+    }
+    .project4{
+        justify-content: flex-end;
+        height: 396px;
+          width: 400px;
+          background-color: yellowgreen;
+          margin-left: 300px;
+          margin-bottom: 100px;
+          position: relative;
+    }
+    .project5{
+        justify-content: flex-start;
+        height: 396px;
+          width: 310px;
+          background-color: whitesmoke;
+          margin-left: 500px;
+          margin-bottom: 100px;
+          position: relative;
+    }
+    .project1:hover .overlay {
+      -webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease; 
+        transition: 0.2s;
+        opacity: 1;
+        background-color: #1B164D;
+        
+    }
+    .project2:hover .overlay {
+      -webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease; 
+        transition: 0.2s;
+        opacity: 1;
+        background-color: #1B164D;
+    }
+    .project3:hover .overlay {
+      -webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease; 
+        transition: 0.2s;
+        opacity: 1;
+        background-color: #1B164D;
+    }
+    .project4:hover .overlay {
+      -webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease; 
+        transition: 0.2s;
+        opacity: 1;
+        background-color: #1B164D;
+    }
+    .project5:hover .overlay {
+      -webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease; 
+        transition: 0.2s;
+        opacity: 1;
+        background-color: #1B164D;
+    
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        -webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease; 
+        transition: .5s ease;
+        background-color: #1B164D;
+    }
+
+    div p{
+        font-family: "basis-grotesque-regular";
+        font-size: 20px;
+        color: white;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .line{
+        width: 20px;
+        height: 3px;
+        background-color: white;
+    }
