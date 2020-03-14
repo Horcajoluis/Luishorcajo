@@ -193,8 +193,9 @@ transition: all 4s ease;
           width: 310px;
           background-color: whitesmoke;
           margin-left: 500px;
-          margin-bottom: 100px;
+          margin-bottom: 150px;
           position: relative;
+          
     }
     .project1:hover .overlay {
       -webkit-transition: all 4s ease;
