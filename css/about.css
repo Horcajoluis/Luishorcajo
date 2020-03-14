@@ -122,6 +122,9 @@ body{
       position: fixed;
       bottom: 32px;
       width: 100%;
+      margin: 0 auto;
+      padding-right: 3%;
+      padding-left: 3%;
     }
     footer a{
       color: white;
@@ -133,19 +136,13 @@ body{
     .footerizquierda{
       float: left;
       text-align: left;
-      width: 40%;
       align-content: space-around;
       display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      margin-left: -100px;
+      align-items: center
     }
     .footerderecha{
-      
       float: right;
             text-align: right;
-            margin-right: 40px;
-            width: 40%;
             align-content: space-around;
             display: flex;
             justify-content: flex-end;

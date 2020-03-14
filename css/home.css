@@ -100,6 +100,12 @@ span{
   font-family: "GT-Super-Display-Light-Italic";
 }
 footer{
+  
+  bottom: 32px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 3%;
+  padding-left: 3%;
   padding-bottom: 32px;
 }
 footer a{
@@ -108,36 +114,30 @@ footer a{
   font-family: "basis-grotesque-bold";
   font-size: 18px;
   align-content: flex-end;
-  
 }
 .footerizquierda{
   float: left;
   text-align: left;
-  width: 40%;
   align-content: space-around;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-left: -100px;
-  
+  align-items: center
 }
 .footerderecha{
-  
   float: right;
         text-align: right;
-        margin-right: 40px;
-        width: 40%;
         align-content: space-around;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-  
-  
 }
 .margin-right{
   margin-right: 16px;
 }
-
+.line{
+  width: 20px;
+  height: 3px;
+  background-color: white;
+}
 
 
 .plinea{
@@ -169,10 +169,4 @@ footer a{
 transition: fade-in 1s; 
   animation: fade-in 1s;
 
-}
-.line{
-  width: 20px;
-  height: 3px;
-  background-color: white;
-  
 }
