@@ -190,20 +190,18 @@ transition: all 4s ease;
         justify-content: flex-end;
         height: 396px;
           width: 400px;
-          background-color: yellowgreen;
+          background-image:url("../images/CaseStudySoundcloud.jpg");
+          background-size: cover;
           margin-left: 300px;
           margin-bottom: 100px;
           position: relative;
     }
-    .project5{
-        justify-content: flex-start;
-        height: 396px;
-          width: 310px;
-          background-color: whitesmoke;
-          margin-left: 500px;
-          margin-bottom: 150px;
-          position: relative;
-          
+    .link-project4{
+    height: 396px;
+    display: block;
+    position: relative;
+  
+
     }
     .project1:hover .overlay {
       -webkit-transition: all 4s ease;
@@ -244,7 +242,7 @@ transition: all 4s ease;
 transition: all 4s ease; 
         transition: 0.2s;
         opacity: 1;
-        background-color: #1B164D;
+        background-color: #45A482;
     }
     .project5:hover .overlay {
       -webkit-transition: all 4s ease;
