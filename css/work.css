@@ -225,7 +225,7 @@ transition: all 4s ease;
 transition: all 4s ease; 
         transition: 0.2s;
         opacity: 1;
-        background-color: #4D4C4C;
+        background-color: #777B7A;
     }
     .project3:hover .overlay {
       -webkit-transition: all 4s ease;
