@@ -58,44 +58,44 @@ body{
           animation: fade-in 1s;
         }
         .logo{
-            text-decoration: none;
+          text-decoration: none;
+      }
+      nav{
+        display: flex;
+        justify-content: space-between;
+      }
+      ul li {
+        font-family: "basis-grotesque-regular";
+        font-size: 24px;
+        color: white;
+        margin-right: 40px;
         }
-        nav{
+        ul{
           display: flex;
-          justify-content: space-between;
+          justify-content: flex-end;
+        list-style: none;
+        color: white;
+        text-decoration: none;
+        padding-top: 8px;
         }
-  ul li {
-    font-family: "basis-grotesque-regular";
-    font-size: 24px;
-    color: white;
-    margin-right: 40px;
-    }
-    ul{
-      display: flex;
-      justify-content: flex-end;
-    list-style: none;
-    color: white;
-    text-decoration: none;
-    padding-top: 8px;
-    }
-    ul li a{
-      color: white;
-    text-decoration: none;
-    cursor: pointer;
-    padding-bottom: 4px;
-  }
-  ul li a:hover{
-    -webkit-transition: all 0s;
-    -moz-transition: all 0s;
-    -ms-transition: all 0s;
-    -o-transition: all 0s;
-    transition: all 0s; 
-    transition: 0s;
-    border-bottom: 2px solid white;
-  }
-  .selected{
-    border-bottom: 2px solid white;
-  }
+        ul li a{
+          color: white;
+        text-decoration: none;
+        cursor: pointer;
+        padding-bottom: 4px;
+      }
+      ul li a:hover{
+        -webkit-transition: all 0s;
+        -moz-transition: all 0s;
+        -ms-transition: all 0s;
+        -o-transition: all 0s;
+        transition: all 0s; 
+        transition: 0s;
+        border-bottom: 2px solid white;
+      }
+      .selected{
+        border-bottom: 2px solid white;
+      }
   footer{
     position: fixed;
     bottom: 32px;
@@ -159,11 +159,12 @@ transition: all 4s ease;
           
       }
       .project1{
-          justify-content: flex-start;
-          height: 396px;
-          width: 310px;
-          background-color: violet;
-          margin-top: 150px;
+        justify-content: flex-start;
+        height: 396px;
+          width: 450px;
+          background-image:url("../images/CaseStudyTodai.jpg");
+          background-size: cover;
+          margin-top: 100px;
           margin-left: 300px;
           margin-bottom: 100px;
           position: relative;
@@ -171,8 +172,9 @@ transition: all 4s ease;
       .project2{
         justify-content: flex-end;
         height: 396px;
-          width: 310px;
-          background-color:wheat;
+          width: 400px;
+          background-image:url("../images/CaseStudyWholeFestival.jpg");
+          background-size: cover;
           margin-left: 500px;
           margin-bottom: 100px;
           position: relative;
@@ -181,7 +183,8 @@ transition: all 4s ease;
         justify-content: flex-start;
         height: 396px;
           width: 450px;
-          background-color: burlywood;
+          background-image:url("../images/CaseStudyCazador.jpg");
+          background-size: cover;
           margin-left: 650px;
           margin-bottom: 100px;
           position: relative;
@@ -196,7 +199,7 @@ transition: all 4s ease;
           margin-bottom: 100px;
           position: relative;
     }
-    .link-project4{
+    .link-project{
     height: 396px;
     display: block;
     position: relative;
@@ -211,7 +214,7 @@ transition: all 4s ease;
 transition: all 4s ease; 
         transition: 0.2s;
         opacity: 1;
-        background-color: #1B164D;
+        background-color: #445278;
         
     }
     .project2:hover .overlay {
@@ -222,7 +225,7 @@ transition: all 4s ease;
 transition: all 4s ease; 
         transition: 0.2s;
         opacity: 1;
-        background-color: #1B164D;
+        background-color: #4D4C4C;
     }
     .project3:hover .overlay {
       -webkit-transition: all 4s ease;
@@ -232,7 +235,7 @@ transition: all 4s ease;
 transition: all 4s ease; 
         transition: 0.2s;
         opacity: 1;
-        background-color: #1B164D;
+        background-color: #084646;
     }
     .project4:hover .overlay {
       -webkit-transition: all 4s ease;
@@ -243,17 +246,6 @@ transition: all 4s ease;
         transition: 0.2s;
         opacity: 1;
         background-color: #45A482;
-    }
-    .project5:hover .overlay {
-      -webkit-transition: all 4s ease;
--moz-transition: all 4s ease;
--ms-transition: all 4s ease;
--o-transition: all 4s ease;
-transition: all 4s ease; 
-        transition: 0.2s;
-        opacity: 1;
-        background-color: #1B164D;
-    
     }
     .overlay {
         position: absolute;
@@ -279,6 +271,16 @@ transition: all 4s ease;
         color: white;
         margin-left: 30px;
         margin-top: 30px;
+    }
+    .aproject{
+        font-family: "basis-grotesque-regular";
+        font-size: 20px;
+        color: white;
+        margin-left: 30px;
+        margin-top: 25px;
+        display: block;
+    position: relative;
+    text-decoration: none;
     }
     .line{
         width: 20px;
