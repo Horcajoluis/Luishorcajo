@@ -172,7 +172,7 @@ transition: all 4s ease;
       .project2{
         justify-content: flex-end;
         height: 396px;
-          width: 400px;
+          width: 450px;
           background-image:url("../images/CaseStudyWholeFestival.jpg");
           background-size: cover;
           margin-left: 500px;
@@ -192,7 +192,7 @@ transition: all 4s ease;
     .project4{
         justify-content: flex-end;
         height: 396px;
-          width: 400px;
+          width: 450px;
           background-image:url("../images/CaseStudySoundcloud.jpg");
           background-size: cover;
           margin-left: 300px;
@@ -208,24 +208,23 @@ transition: all 4s ease;
     }
     .project1:hover .overlay {
       -webkit-transition: all 4s ease;
--moz-transition: all 4s ease;
--ms-transition: all 4s ease;
--o-transition: all 4s ease;
-transition: all 4s ease; 
-        transition: 0.2s;
-        opacity: 1;
-        background-color: #445278;
-        
+      -moz-transition: all 4s ease;
+      -ms-transition: all 4s ease;
+      -o-transition: all 4s ease;
+      transition: all 4s ease; 
+              transition: 0.2s;
+              opacity: 1;
+              background-color: #0A2342;
     }
     .project2:hover .overlay {
       -webkit-transition: all 4s ease;
--moz-transition: all 4s ease;
--ms-transition: all 4s ease;
--o-transition: all 4s ease;
-transition: all 4s ease; 
-        transition: 0.2s;
-        opacity: 1;
-        background-color: #777B7A;
+      -moz-transition: all 4s ease;
+      -ms-transition: all 4s ease;
+      -o-transition: all 4s ease;
+      transition: all 4s ease; 
+              transition: 0.2s;
+              opacity: 1;
+        background-color: #a9c7be;
     }
     .project3:hover .overlay {
       -webkit-transition: all 4s ease;
