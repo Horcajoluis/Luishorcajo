@@ -11,13 +11,13 @@ body{
 }
 
 @font-face{
-    font-family: "basis-grotesque-regular";
-  src:  url("../fonts/basis-grotesque-regular.ttf")
+    font-family: "HamburgHand-Light";
+  src:  url("../fonts/HamburgHand-Light.otf")
 }
 
 @font-face{
-    font-family: "basis-grotesque-bold";
-  src:  url("../fonts/basis-grotesque-bold.ttf")
+    font-family: "HamburgHand-Regular";
+  src:  url("../fonts/HamburgHand-Regular.otf")
 }
 
 @font-face{
@@ -29,7 +29,7 @@ body{
 }
 
 .luis {
-font-family: "basis-grotesque-regular";
+font-family: "HamburgHand-Regular";
 font-size: 40px;
 color: white;
 margin: 0px;
@@ -47,7 +47,7 @@ padding-top: 20px;
 
   }
   ul li {
-    font-family: "basis-grotesque-regular";
+    font-family: "HamburgHand-Regular";
     font-size: 24px;
     color: white;
     margin-right: 40px;
@@ -87,7 +87,7 @@ transition: 0.2s;
       justify-content: space-between;
     }
     section p{
-    font-family: "basis-grotesque-regular";
+    font-family: "HamburgHand-Light";
     font-size: 48px;
     color: white;
     align-content: center;
@@ -111,7 +111,7 @@ footer{
 footer a{
   color: white;
   text-decoration: none;
-  font-family: "basis-grotesque-bold";
+  font-family: "HamburgHand-Regular";
   font-size: 18px;
   align-content: flex-end;
 }
@@ -162,11 +162,10 @@ footer a{
 }
 
 .fade-in{
-  -webkit-transition: fade-in 1s;
--moz-transition: fade-in 1s;
--ms-transition: fade-in 1s;
--o-transition: fade-in 1s;
-transition: fade-in 1s; 
-  animation: fade-in 1s;
-
+  -webkit-transition: fade-in 1.5s;
+-moz-transition: fade-in 1.5s;
+-ms-transition: fade-in 1.5s;
+-o-transition: fade-in 1.5s;
+transition: fade-in 1.5s; 
+  animation: fade-in 1.5s;
 }

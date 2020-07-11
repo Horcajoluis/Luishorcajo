@@ -5,14 +5,14 @@ body{
 }
 
     @font-face{
-      font-family: "basis-grotesque-regular";
-      src: url("../fonts/basis-grotesque-regular.ttf")
+      font-family: "HamburgHand-Light";
+      src: url("../fonts/HamburgHand-Light.otf")
     }
 
   
   @font-face{
-      font-family: "basis-grotesque-bold";
-    src:  url("../fonts/basis-grotesque-bold.ttf")
+      font-family: "HamburgHand-Regular";
+    src:  url("../fonts/HamburgHand-Regular.otf")
   }
   
   @font-face{
@@ -40,7 +40,7 @@ body{
   
   .degradado{
        
-    background: linear-gradient(233deg, #B16582, #32A691, #2e6781);
+    background: linear-gradient(233deg, #F97D5B, #45A482, #28474B);
         background-size: 800% 800%;
         
         -webkit-animation: gradientanimation 15s ease infinite;
@@ -49,7 +49,7 @@ body{
         animation-direction: alternate;
   }
   .luis {
-  font-family: "basis-grotesque-regular";
+  font-family: "HamburgHand-Regular";
   font-size: 40px;
   color: white;
   margin: 0px;
@@ -72,12 +72,12 @@ body{
       }
     }
     .fade-in{
-      -webkit-transition: fade-in 1s;
-      -moz-transition: fade-in 1s;
-      -ms-transition: fade-in 1s;
-      -o-transition: fade-in 1s;
-      transition: fade-in 1s; 
-      animation: fade-in 1s;
+      -webkit-transition: fade-in 1.5s;
+      -moz-transition: fade-in 1.5s;
+      -ms-transition: fade-in 1.5s;
+      -o-transition: fade-in 1.5s;
+      transition: fade-in 1.5s; 
+      animation: fade-in 1.5s;
     }
     .logo{
         text-decoration: none;
@@ -87,7 +87,7 @@ body{
       justify-content: space-between;
     }
     ul li {
-      font-family: "basis-grotesque-regular";
+      font-family: "HamburgHand-Regular";
       font-size: 24px;
       color: white;
       margin-right: 40px;
@@ -129,7 +129,7 @@ body{
     footer a{
       color: white;
       text-decoration: none;
-      font-family: "basis-grotesque-bold";
+      font-family: "HamburgHand-Regular";
       font-size: 18px;
       align-content: flex-end;
     }
@@ -157,14 +157,14 @@ body{
       background-color: white;
   }
   .intro {
-  font-family: "basis-grotesque-regular";
+  font-family: "HamburgHand-Light";
   font-size: 32px;
   color: white;
   margin-top: -200px;
   width: 50%;
 }
 .intro2{
-font-family: "basis-grotesque-regular";
+font-family: "HamburgHand-Light";
 font-size: 32px;
 color: white;
 margin-left: 650px;
@@ -172,7 +172,7 @@ padding-top: 50px;
 width: 50%;
 }
 .intro3 {
-font-family: "basis-grotesque-regular";
+font-family: "HamburgHand-Light";
 font-size: 32px;
 color: white;
 margin-left: 350px;
@@ -180,7 +180,7 @@ padding-top: 50px;
 width: 70%;
 } 
 .intro4 {
-font-family: "basis-grotesque-regular";
+font-family: "HamburgHand-Light";
 font-size: 32px;
 color: white;
 margin-left: 500px;
@@ -188,7 +188,7 @@ padding-top: 50px;
 width: 45%;
 }
 .intro5 {
-font-family: "basis-grotesque-regular";
+font-family: "HamburgHand-Light";
 font-size: 32px;
 color: white;
 margin-left: 375px;
@@ -197,7 +197,7 @@ width: 45%;
 padding-bottom: 80px;
 }
 .introfinal{
-font-family: "basis-grotesque-regular";
+font-family: "HamburgHand-Light";
 font-size: 20px;
 color: white;
 margin-left: 450px;
@@ -227,7 +227,7 @@ span{
 font-family: "GT-Super-Display-Light-Italic";
 }
 .botoncv{
-font-family: "basis-grotesque-regular";
+font-family: "HamburgHand-Light";
 font-size: 18px;
 color: white;
 text-decoration: none;

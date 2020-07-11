@@ -1,6 +1,6 @@
 body{
     margin: 0px;  
-    background-color: #603344;
+    background-color: #45A482;
       height: 100vh;
       width: 100%;
     display: flex;
@@ -8,14 +8,14 @@ body{
     justify-content: space-between;
 }
       @font-face {
-        font-family: "basis-grotesque-regular";
-        src: url("../fonts/basis-grotesque-regular.ttf")
+        font-family: "HamburgHand-Regular";
+        src: url("../fonts/HamburgHand-Regular.otf")
     }
   
     
     @font-face{
-        font-family: "basis-grotesque-bold";
-      src:  url("../fonts/basis-grotesque-bold.ttf")
+        font-family: "HamburgHand-Light";
+      src:  url("../fonts/HamburgHand-Light.otf")
     }
     
     @font-face{
@@ -27,7 +27,7 @@ body{
     }
     
     .luis {
-      font-family: "basis-grotesque-regular";
+      font-family: "HamburgHand-Regular";
       font-size: 40px;
       color: white;
       margin: 0px;
@@ -50,12 +50,12 @@ body{
           }
         }
         .fade-in{
-          -webkit-transition: fade-in 1s;
-          -moz-transition: fade-in 1s;
-          -ms-transition: fade-in 1s;
-          -o-transition: fade-in 1s;
-          transition: fade-in 1s; 
-          animation: fade-in 1s;
+          -webkit-transition: fade-in 1.5s;
+          -moz-transition: fade-in 1.5s;
+          -ms-transition: fade-in 1.5s;
+          -o-transition: fade-in 1.5s;
+          transition: fade-in 1.5s; 
+          animation: fade-in 1.5s;
         }
         .logo{
           text-decoration: none;
@@ -65,7 +65,7 @@ body{
         justify-content: space-between;
       }
       ul li {
-        font-family: "basis-grotesque-regular";
+        font-family: "HamburgHand-Regular";
         font-size: 24px;
         color: white;
         margin-right: 40px;
@@ -107,7 +107,7 @@ body{
   footer a{
     color: white;
     text-decoration: none;
-    font-family: "basis-grotesque-bold";
+    font-family: "HamburgHand-Regular";
     font-size: 18px;
     align-content: flex-end;
   }
@@ -214,7 +214,7 @@ transition: all 4s ease;
       transition: all 4s ease; 
               transition: 0.2s;
               opacity: 1;
-              background-color: #637678;
+              background-color: #EB7072;
     }
     .project2:hover .overlay {
       -webkit-transition: all 4s ease;
@@ -224,7 +224,7 @@ transition: all 4s ease;
       transition: all 4s ease; 
               transition: 0.2s;
               opacity: 1;
-        background-color: #a9c7be;
+        background-color: #A9C7BE;
     }
     .project3:hover .overlay {
       -webkit-transition: all 4s ease;
@@ -234,7 +234,7 @@ transition: all 4s ease;
 transition: all 4s ease; 
         transition: 0.2s;
         opacity: 1;
-        background-color: #084646;
+        background-color: #153243;
     }
     .project4:hover .overlay {
       -webkit-transition: all 4s ease;
@@ -244,7 +244,7 @@ transition: all 4s ease;
 transition: all 4s ease; 
         transition: 0.2s;
         opacity: 1;
-        background-color: #32A691;
+        background-color: #F97D5B;
     }
     .overlay {
         position: absolute;
@@ -265,14 +265,14 @@ transition: all 4s ease;
     }
 
     div p{
-        font-family: "basis-grotesque-regular";
+        font-family: "HamburgHand-Light";
         font-size: 20px;
         color: white;
         margin-left: 30px;
         margin-top: 30px;
     }
     .aproject{
-        font-family: "basis-grotesque-regular";
+        font-family: "HamburgHand-Light";
         font-size: 20px;
         color: white;
         margin-left: 30px;
