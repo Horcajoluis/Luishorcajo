@@ -40,7 +40,7 @@ body{
   
   .degradado{
        
-    background: linear-gradient(233deg, #F97D5B, #45A482, #28474B);
+    background: linear-gradient(233deg, #F94F52, #F3C8D2, #45A482);
         background-size: 800% 800%;
         
         -webkit-animation: gradientanimation 15s ease infinite;
