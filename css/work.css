@@ -1,6 +1,6 @@
 body{
     margin: 0px;  
-    background-color: #84B0CC;
+    background-color: #58A387;
       height: 100vh;
       width: 100%;
     display: flex;
@@ -214,7 +214,7 @@ transition: all 4s ease;
       transition: all 4s ease; 
               transition: 0.2s;
               opacity: 1;
-              background-color: #4B6779;
+              background-color: #073360;
     }
     .project2:hover .overlay {
       -webkit-transition: all 4s ease;
@@ -224,7 +224,7 @@ transition: all 4s ease;
       transition: all 4s ease; 
               transition: 0.2s;
               opacity: 1;
-              background-color: #45A482;
+              background-color: #BEB8F8;
     }
     .project3:hover .overlay {
       -webkit-transition: all 4s ease;
@@ -234,7 +234,7 @@ transition: all 4s ease;
 transition: all 4s ease; 
         transition: 0.2s;
         opacity: 1;
-        background-color: #F3A062;
+        background-color: #EAB3B5;
     }
     .project4:hover .overlay {
       -webkit-transition: all 4s ease;
